@@ -10,7 +10,7 @@ class ToolbarGridLayout(GridLayout):
 
 class ToolbarApp(App):
     def build(self):
-        return ToolbarGridLayout
+        return ToolbarGridLayout()
 
 
 tApp = ToolbarApp()
